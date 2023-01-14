@@ -1,0 +1,17 @@
+export const defaultProps = {
+  type: "text",
+  name: "firstName",
+  label: "first Name",
+  placeHolder: "first name",
+  required: false,
+  defaultValue: "",
+  readOnly: false,
+  hidden: false,
+  multiple: true,
+  error: "default error message",
+  touched: false,
+  maxLength: 30,
+  requiredStar: true,
+  max: 999,
+  min: 0,
+};
